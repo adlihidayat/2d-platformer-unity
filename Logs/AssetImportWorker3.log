@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb
+C:/Users/adlih/2d-platformer-unity
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51086
-Successfully changed project path to: C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb
-C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb
+51547
+Successfully changed project path to: C:/Users/adlih/2d-platformer-unity
+C:/Users/adlih/2d-platformer-unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,18 +49,18 @@ C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc6
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22928]  Target information:
+Player connection [29588]  Target information:
 
-Player connection [22928]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1371404450 [EditorId] 1371404450 [Version] 1048832 [Id] WindowsEditor(7,adli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29588]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1182990704 [EditorId] 1182990704 [Version] 1048832 [Id] WindowsEditor(7,adli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22928] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29588] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29588] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 18.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 30.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/Assets
+[Subsystems] Discovering subsystems at path C:/Users/adlih/2d-platformer-unity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006946 seconds.
-- Loaded All Assemblies, in  0.451 seconds
+Registered in 0.011439 seconds.
+- Loaded All Assemblies, in  0.415 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.256 seconds
-Domain Reload Profiling: 706ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 665ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (165ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (155ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (257ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (251ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,83 +120,55 @@ Domain Reload Profiling: 706ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
-
-- Loaded All Assemblies, in  0.539 seconds
+- Loaded All Assemblies, in  0.829 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
-  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
-  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
-  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.642 seconds
-Domain Reload Profiling: 1179ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1452ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (313ms)
-		LoadAssemblies (205ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (499ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (148ms)
-				TypeCache.ScanAssembly (130ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (643ms)
+	FinalizeReload (631ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (500ms)
+		SetupLoadedEditorAssemblies (491ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 5.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (49.2 KB). Loaded Objects now: 4598.
-Memory consumption went from 141.8 MB to 141.7 MB.
-Total: 3.706300 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.137300 ms MarkObjects: 3.178600 ms  DeleteObjects: 0.107800 ms)
+Unloading 4032 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 4501.
+Memory consumption went from 140.9 MB to 140.9 MB.
+Total: 4.279600 ms (FindLiveObjects: 0.439500 ms CreateObjectMapping: 0.169300 ms MarkObjects: 3.544100 ms  DeleteObjects: 0.125200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -215,457 +187,53 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
-
-- Loaded All Assemblies, in  0.708 seconds
+- Loaded All Assemblies, in  1.907 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
-  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
-  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
-  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.726 seconds
-Domain Reload Profiling: 1434ms
-	BeginReloadAssembly (496ms)
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 2819ms
+	BeginReloadAssembly (1456ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (350ms)
+		DisableScriptedObjects (1218ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (194ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (457ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (727ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (915ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (669ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (22.9 KB). Loaded Objects now: 4603.
-Memory consumption went from 139.6 MB to 139.6 MB.
-Total: 3.538600 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.154700 ms MarkObjects: 3.037200 ms  DeleteObjects: 0.044600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
-
-- Loaded All Assemblies, in  0.331 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
-  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
-  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
-  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.156 seconds
-Domain Reload Profiling: 1485ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (172ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1157ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (554ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (394ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4607.
-Memory consumption went from 139.7 MB to 139.6 MB.
-Total: 3.883300 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.210200 ms MarkObjects: 3.280500 ms  DeleteObjects: 0.093600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
-
-- Loaded All Assemblies, in  0.343 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
-  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
-  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
-  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.127 seconds
-Domain Reload Profiling: 1467ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (186ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1127ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (541ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (383ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4611.
-Memory consumption went from 139.7 MB to 139.7 MB.
-Total: 3.775300 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.184300 ms MarkObjects: 3.223800 ms  DeleteObjects: 0.042100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
-
-- Loaded All Assemblies, in  0.346 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
-  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
-  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
-  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.163 seconds
-Domain Reload Profiling: 1506ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (182ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1164ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (536ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (387ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 6.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4615.
-Memory consumption went from 139.7 MB to 139.7 MB.
-Total: 3.811100 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.186800 ms MarkObjects: 3.133000 ms  DeleteObjects: 0.072100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
-
-- Loaded All Assemblies, in  0.342 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
-  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
-  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
-  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
-  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
-  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.210 seconds
-Domain Reload Profiling: 1550ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (182ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1211ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (378ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 8.40 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 7.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4619.
-Memory consumption went from 139.7 MB to 139.7 MB.
-Total: 4.551800 ms (FindLiveObjects: 0.657500 ms CreateObjectMapping: 0.259700 ms MarkObjects: 3.589300 ms  DeleteObjects: 0.043400 ms)
+Unloading 4021 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (31.1 KB). Loaded Objects now: 4506.
+Memory consumption went from 138.8 MB to 138.7 MB.
+Total: 4.693000 ms (FindLiveObjects: 0.521800 ms CreateObjectMapping: 0.323700 ms MarkObjects: 3.768900 ms  DeleteObjects: 0.076800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

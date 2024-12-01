@@ -15,7 +15,7 @@ C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc6
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50154
+51086
 Successfully changed project path to: C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb
 C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb/2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/adlih/Documents/tugas/grafika komputer/2D-platformer-with-unity-9070fc6
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25512]  Target information:
+Player connection [22928]  Target information:
 
-Player connection [25512]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 331221847 [EditorId] 331221847 [Version] 1048832 [Id] WindowsEditor(7,adli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22928]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1371404450 [EditorId] 1371404450 [Version] 1048832 [Id] WindowsEditor(7,adli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25512] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25512] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22928] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 340.67 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007156 seconds.
-- Loaded All Assemblies, in  2.008 seconds
+Registered in 0.006946 seconds.
+- Loaded All Assemblies, in  0.451 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.270 seconds
-Domain Reload Profiling: 2277ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 706ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (369ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (1459ms)
-		LoadAssemblies (109ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1457ms)
-			TypeCache.Refresh (1455ms)
-				TypeCache.ScanAssembly (823ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (270ms)
+	FinalizeReload (257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (225ms)
+		SetupLoadedEditorAssemblies (211ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -130,7 +130,7 @@ DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Do
   at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
   at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
 
-- Loaded All Assemblies, in  0.911 seconds
+- Loaded All Assemblies, in  0.539 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -156,47 +156,47 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.228 seconds
-Domain Reload Profiling: 2136ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1179ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (581ms)
-		LoadAssemblies (282ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (205ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (416ms)
-			TypeCache.Refresh (357ms)
-				TypeCache.ScanAssembly (235ms)
-			ScanForSourceGeneratedMonoScriptInfo (48ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (1229ms)
+	FinalizeReload (643ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (943ms)
+		SetupLoadedEditorAssemblies (500ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (158ms)
-			ProcessInitializeOnLoadAttributes (692ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 12.93 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (48.8 KB). Loaded Objects now: 4600.
-Memory consumption went from 141.9 MB to 141.8 MB.
-Total: 6.417600 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.381500 ms MarkObjects: 5.453700 ms  DeleteObjects: 0.144200 ms)
+Unloading 16 unused Assets / (49.2 KB). Loaded Objects now: 4598.
+Memory consumption went from 141.8 MB to 141.7 MB.
+Total: 3.706300 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.137300 ms MarkObjects: 3.178600 ms  DeleteObjects: 0.107800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -212,745 +212,472 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 9080.907290 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Logs.prefab
-  artifactKey: Guid(d0bde9a42898be64ab7372c560194d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Logs.prefab using Guid(d0bde9a42898be64ab7372c560194d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ba22019a43a02f8ca58dc1142f04024d') in 0.199430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab
-  artifactKey: Guid(49437f4ad0b44f5438b6216b787c82c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab using Guid(49437f4ad0b44f5438b6216b787c82c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fb6c094dcf8b76d22d2b70f7451f412e') in 0.044954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround19.asset
-  artifactKey: Guid(990b46d35dad20345aa74068028763f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround19.asset using Guid(990b46d35dad20345aa74068028763f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ab788b20a7608cbf37c9abd9b66a70f6') in 0.054278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab
-  artifactKey: Guid(e8bae36b607017047ace9061609051d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab using Guid(e8bae36b607017047ace9061609051d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1b1c2c372fab2e93077da797ead8981a') in 0.050767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Clother Hanger.prefab
-  artifactKey: Guid(cbdefb422455c2a4aab364028b4b5e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Clother Hanger.prefab using Guid(cbdefb422455c2a4aab364028b4b5e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '19188f64a3a0faf56f546329227eed65') in 0.038686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab
-  artifactKey: Guid(78c0f168d9274124eaeedea139301a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab using Guid(78c0f168d9274124eaeedea139301a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '763d8eb8df490abbd78d2dec26159974') in 0.048865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant12.asset
-  artifactKey: Guid(76253096b04adcf4582cbdaccc1eb1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant12.asset using Guid(76253096b04adcf4582cbdaccc1eb1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '776e931927533426db43cd19fa1bf65b') in 0.038649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant7.asset
-  artifactKey: Guid(745048a998e73484988200e00313e2cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant7.asset using Guid(745048a998e73484988200e00313e2cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9459bcb733fa1f064c40df57740e3d39') in 0.030988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround14.asset
-  artifactKey: Guid(ac921e1515a81bb448b6e65c454a1c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround14.asset using Guid(ac921e1515a81bb448b6e65c454a1c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1e2889ecaf62a6bb0bd096a57d62954b') in 0.029474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 01.prefab
-  artifactKey: Guid(050d9e84d8de61d41ac16ebab39e64a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 01.prefab using Guid(050d9e84d8de61d41ac16ebab39e64a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6de65d4f9a79fbaffbe7d683a1ea9d6c') in 0.041288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround7.asset
-  artifactKey: Guid(7a893bf30e8b23047a78c094f422fec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround7.asset using Guid(7a893bf30e8b23047a78c094f422fec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '966a4d0d5b7a253f23b5aba65ed4d91c') in 0.033520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround21.asset
-  artifactKey: Guid(ea6723564d86a334fad6550a30c17623) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround21.asset using Guid(ea6723564d86a334fad6550a30c17623) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6896e58d0f2a207308ebb5a00a2aa476') in 0.036529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround16.asset
-  artifactKey: Guid(200d924199aa0fa4c83af3599d90e86e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround16.asset using Guid(200d924199aa0fa4c83af3599d90e86e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6006be23fd62bbf9e0ecac6c0bbab5be') in 0.030174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround3.asset
-  artifactKey: Guid(108e6165f7a91b44e8701711b2d1a23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround3.asset using Guid(108e6165f7a91b44e8701711b2d1a23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4887f68b309b5a9935e3ecfc505c7f41') in 0.033011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround30.asset
-  artifactKey: Guid(9d55df0d95ae5214a9840628a7bd3a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround30.asset using Guid(9d55df0d95ae5214a9840628a7bd3a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ce17d11e723494c8720a18b8a4aac2ae') in 0.038876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround10.asset
-  artifactKey: Guid(4a61f3951d5c9a949a997d1dc9bbefa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround10.asset using Guid(4a61f3951d5c9a949a997d1dc9bbefa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '74d9f8b5d8bcb1382e766cae46b3dfdc') in 0.040415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab
-  artifactKey: Guid(c733f14e73fac4e4cbcdf3c827225214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab using Guid(c733f14e73fac4e4cbcdf3c827225214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '95b65c7f9c47e1a71dde04eb2ea075cc') in 0.042281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab
-  artifactKey: Guid(ab2f44b99adf358449c83b74c274b97b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab using Guid(ab2f44b99adf358449c83b74c274b97b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5efd13b16dfb71c9a2544247ebed5820') in 0.036256 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence2.asset
-  artifactKey: Guid(ad0f3a99a6731994a968f3111637261d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence2.asset using Guid(ad0f3a99a6731994a968f3111637261d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cc0a77e8898bd3e505a192eaa8255c3f') in 0.039398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 15.515331 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Script/MovingPlatform.cs
-  artifactKey: Guid(62f13fc5f387cd24f9b520c8160d7afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Script/MovingPlatform.cs using Guid(62f13fc5f387cd24f9b520c8160d7afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6f0f16c022bb680e80379c30ce57c20e') in 0.019191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_124.asset
-  artifactKey: Guid(4d078929644baef49866a25156dbc4de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_124.asset using Guid(4d078929644baef49866a25156dbc4de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '63f3db78cea8709d7e46e7ade9ada64b') in 0.050133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_126.asset
-  artifactKey: Guid(251a2ac0250d3754bbfd5d2b105fd04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_126.asset using Guid(251a2ac0250d3754bbfd5d2b105fd04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dc15ccf41abf12fb2752c01499a381fb') in 0.038753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_110.asset
-  artifactKey: Guid(afd7b716c284bc74aa4eb8cd1b06a511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_110.asset using Guid(afd7b716c284bc74aa4eb8cd1b06a511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '56e174a05222e1e24ddb249cc1586c53') in 0.039508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_109.asset
-  artifactKey: Guid(779848281c0def348a159e2d883c9fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_109.asset using Guid(779848281c0def348a159e2d883c9fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '75a10a91b158717cf37b81b435ab44a1') in 0.035859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_130.asset
-  artifactKey: Guid(5693273b93af0b546a5216dc3b7b4dd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_130.asset using Guid(5693273b93af0b546a5216dc3b7b4dd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f66fadcd49238bcb9a5500fbf0b9855f') in 0.038431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Torch Flame.png
-  artifactKey: Guid(22a56ebdc97997341afdcb2e902b2ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Torch Flame.png using Guid(22a56ebdc97997341afdcb2e902b2ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eb574675a1676e67f28fe611d2dc6fda') in 0.073788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
-  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8b5c2bbbdba8b509e9d04487017f31af') in 0.296889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 193
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_67.asset
-  artifactKey: Guid(23de78d8473898c48ae935fc211f70a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_67.asset using Guid(23de78d8473898c48ae935fc211f70a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bf967f5f7a4dc503fce9d1601a0cd89e') in 0.035229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_41.asset
-  artifactKey: Guid(00f32906b6a5a5846be9878967ba535e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_41.asset using Guid(00f32906b6a5a5846be9878967ba535e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8bcd167fdd381036655a884490fa7f6e') in 0.034582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_89.asset
-  artifactKey: Guid(f037167d8823e3549a99b1081d8021b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_89.asset using Guid(f037167d8823e3549a99b1081d8021b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '349379772aeb52bc6a193ba35211310c') in 0.036466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_39.asset
-  artifactKey: Guid(f5538472cb4277543954ce71eed32c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_39.asset using Guid(f5538472cb4277543954ce71eed32c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'be3530e0e55861d1dbe4783e938a7921') in 0.036237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_47.asset
-  artifactKey: Guid(b263b7b95d50cfb40838eb0c7995df8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_47.asset using Guid(b263b7b95d50cfb40838eb0c7995df8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fb8d8e6d987e29cc53bfcb9bdb54c2b9') in 0.032827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_22.asset
-  artifactKey: Guid(81ab65db075312c47a4a007cc53527fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_22.asset using Guid(81ab65db075312c47a4a007cc53527fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '140753d86dff435c4007835023286dec') in 0.035245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_98.asset
-  artifactKey: Guid(abac48d8a77c3594bbaaefca166ba04f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_98.asset using Guid(abac48d8a77c3594bbaaefca166ba04f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '56348321427574563a08987ab80677dc') in 0.035686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/PropertyGroupProcessor.cs
-  artifactKey: Guid(daf9f004d7a2c4709b68f27b7f6f231d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/PropertyGroupProcessor.cs using Guid(daf9f004d7a2c4709b68f27b7f6f231d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fc984d5d2dfc4664c77547ef1d9314ce') in 0.022158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_48.asset
-  artifactKey: Guid(648b81db682e5ca4d994d7ec64ca3cb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_48.asset using Guid(648b81db682e5ca4d994d7ec64ca3cb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '72a3199cd9a3cdfaef2aab41ab0468de') in 0.038170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/LucidEditor.cs
-  artifactKey: Guid(f1c419d127e634bb7807d7e507a43a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/LucidEditor.cs using Guid(f1c419d127e634bb7807d7e507a43a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '49a5ffabda15509d7bc93d1993b81380') in 0.019296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_35.asset
-  artifactKey: Guid(0ba9a9a782147074f8a089b2bb2e6be5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_35.asset using Guid(0ba9a9a782147074f8a089b2bb2e6be5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '86b3035ca2e3ada08d401b002c240fd3') in 0.039590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_83.asset
-  artifactKey: Guid(9a09059add2394e4bbb2f597decd27f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_83.asset using Guid(9a09059add2394e4bbb2f597decd27f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6c7eadb1d06c253d3cee0515a5c97cca') in 0.038554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_4.asset
-  artifactKey: Guid(f2072758f4ae02f478158bab4474a282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_4.asset using Guid(f2072758f4ae02f478158bab4474a282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '219e71d0b9a0943eaa46ae22002e4d22') in 0.039826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Extensions/SerializedPropertyExtensions.cs
-  artifactKey: Guid(f5e8e6d54dc4c477cb5b6a472790e6bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Extensions/SerializedPropertyExtensions.cs using Guid(f5e8e6d54dc4c477cb5b6a472790e6bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e7b752fd3b643291eb73d717107fc272') in 0.025072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/FoldoutGroupAttributeProcessor.cs
-  artifactKey: Guid(82b7d9f997ddd4538b703ba85fc2ad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/FoldoutGroupAttributeProcessor.cs using Guid(82b7d9f997ddd4538b703ba85fc2ad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '941b2713090768a9f5320ae730344231') in 0.024190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/ValidateInputAttributeProcessor.cs
-  artifactKey: Guid(ab179775f6cfb40d7bcc4874fffa5412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/ValidateInputAttributeProcessor.cs using Guid(ab179775f6cfb40d7bcc4874fffa5412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e6ae82e526e658995e45a521a90295e5') in 0.024177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_71.asset
-  artifactKey: Guid(11575183a6bcbaa40b9061c460cc1b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_71.asset using Guid(11575183a6bcbaa40b9061c460cc1b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '577584f135bfd28bc56fa978aba9cbd6') in 0.039416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/HelpBoxIfAttributeProcessor.cs
-  artifactKey: Guid(7d6392ca7b5094ba0b13c8e20d83ccd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/HelpBoxIfAttributeProcessor.cs using Guid(7d6392ca7b5094ba0b13c8e20d83ccd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '60144d6f127cbb8c29a1d80140f9f086') in 0.020763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_17.asset
-  artifactKey: Guid(3a98eb28e20145b468ef3e57b8a6d56a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_17.asset using Guid(3a98eb28e20145b468ef3e57b8a6d56a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7c67909b5a2174ba0ae6ca5cefcc9fa8') in 0.039491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png
-  artifactKey: Guid(19e07f9d107e445408633f50457d456e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png using Guid(19e07f9d107e445408633f50457d456e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a29f6e83996427c6686700f30485371e') in 0.069145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_140.asset
-  artifactKey: Guid(b1ebbae3d171fca4bada5fbf753b0afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_140.asset using Guid(b1ebbae3d171fca4bada5fbf753b0afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '03691bd4af9c10bafcab710350ee1d74') in 0.035650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_20.asset
-  artifactKey: Guid(3b6a4513fd7fe3d4f86ed6eb63487143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_20.asset using Guid(3b6a4513fd7fe3d4f86ed6eb63487143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a17ec246292126ff7db947d4833eb232') in 0.038652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_111.asset
-  artifactKey: Guid(ef522b2875db9aa428d1a38510fba6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_111.asset using Guid(ef522b2875db9aa428d1a38510fba6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1a8d26e1a8a374a1e6e0d4de3975290e') in 0.038260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_92.asset
-  artifactKey: Guid(62281e056124cff459cb19141b57c5bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_92.asset using Guid(62281e056124cff459cb19141b57c5bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '54da18f992f91c00cc35674e0c9d1d16') in 0.037286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_21.asset
-  artifactKey: Guid(26f6567865bdaf0438cb400adef5888d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_21.asset using Guid(26f6567865bdaf0438cb400adef5888d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ede0289ec56d554c60af159653509a8d') in 0.039027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_152.asset
-  artifactKey: Guid(176824998c8f1ac4b9bcb40a6b3daaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_152.asset using Guid(176824998c8f1ac4b9bcb40a6b3daaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '85684218668eabad654358a8104b6063') in 0.036580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_1.asset
-  artifactKey: Guid(2246b6170bb9dd24bbc3c9c3c90624cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_1.asset using Guid(2246b6170bb9dd24bbc3c9c3c90624cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bee1830d505ed8412c444ba8d60088ab') in 0.034474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableLucidEditorAttribute.cs
-  artifactKey: Guid(d750cca32720e4c5daeb51e4a43730a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableLucidEditorAttribute.cs using Guid(d750cca32720e4c5daeb51e4a43730a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd2c6d1857f38568f9dc31449f48cad96') in 0.020803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/RequiredAttribute.cs
-  artifactKey: Guid(df1019c58e921426185de0ea66fb0bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/RequiredAttribute.cs using Guid(df1019c58e921426185de0ea66fb0bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e5ab3a33a72da450f6634d68deb4c758') in 0.022779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ButtonAttribute.cs
-  artifactKey: Guid(3450506bfd5c940439d2a7f9f1878f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ButtonAttribute.cs using Guid(3450506bfd5c940439d2a7f9f1878f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '968d7a658bfb11882d0a6843b3297bd5') in 0.022931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/PropertyOrderAttribute.cs
-  artifactKey: Guid(8f0fd23beeb634893949d37e316f8f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/PropertyOrderAttribute.cs using Guid(8f0fd23beeb634893949d37e316f8f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e611275ad4f5151f6413268e9f149266') in 0.021321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs
-  artifactKey: Guid(63c421ef8437043589a631c5b71eb4fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs using Guid(63c421ef8437043589a631c5b71eb4fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6a91f56068b7b8a77346eb2e48dbef33') in 0.021081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_10.asset
-  artifactKey: Guid(8c0583c4997af29459616893182f1c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_10.asset using Guid(8c0583c4997af29459616893182f1c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0074ece0daf0da2bdecb7d0e67f0cca0') in 0.039318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_104.asset
-  artifactKey: Guid(dac5139ad2edb954bb628ed049e8df7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_104.asset using Guid(dac5139ad2edb954bb628ed049e8df7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '18ff345c52714d286c45c953d17ab89f') in 0.034156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_116.asset
-  artifactKey: Guid(816432509043e31499f0270a73371040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_116.asset using Guid(816432509043e31499f0270a73371040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ae83d6809d33be4c7302dd31df2f0109') in 0.035519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalLineAttribute.cs
-  artifactKey: Guid(875c2c64a20374cd08ac4eebb6c290d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalLineAttribute.cs using Guid(875c2c64a20374cd08ac4eebb6c290d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fcb6151d24563e0a3ec005a1e8459f58') in 0.022802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideMonoScript.cs
-  artifactKey: Guid(0747ac6687fef43fcbb38ec9e9c8d06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideMonoScript.cs using Guid(0747ac6687fef43fcbb38ec9e9c8d06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '34258eb1c994d7f1776e233da54b4ff1') in 0.021663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ReadOnlyAttribute.cs
-  artifactKey: Guid(006b91e11152941e0a04e6f916453b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ReadOnlyAttribute.cs using Guid(006b91e11152941e0a04e6f916453b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '49b0f1573459d2daf23abd6550427550') in 0.022213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/LabelWidthAttributeProcessor.cs
-  artifactKey: Guid(fa081df837cda49f39fffedcc6eb4eb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/LabelWidthAttributeProcessor.cs using Guid(fa081df837cda49f39fffedcc6eb4eb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b9d8a0f5e3c69984d45f86f964d282fe') in 0.022664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_45.asset
-  artifactKey: Guid(d4357408089a684499afa009260ea599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_45.asset using Guid(d4357408089a684499afa009260ea599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd78baf19fba4833f174883190e7b7549') in 0.037151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/IndentAttribute.cs
-  artifactKey: Guid(baf2c55e67a17434caa539147998b3eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/IndentAttribute.cs using Guid(baf2c55e67a17434caa539147998b3eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '71dd66a34cf26035c93901aba8266133') in 0.021728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_159.asset
-  artifactKey: Guid(5b48754204f63c94db2e859e46382f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_159.asset using Guid(5b48754204f63c94db2e859e46382f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd9d98c4dced71afebe5d435a900c14c2') in 0.039041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/HorizontalGroupAttributeProcessor.cs
-  artifactKey: Guid(ba7ac005c37994f3080a24e976c6f223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/HorizontalGroupAttributeProcessor.cs using Guid(ba7ac005c37994f3080a24e976c6f223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd8ef54e405cf9b1a76a0f1a205590480') in 0.022117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_52.asset
-  artifactKey: Guid(28b1ca65b86fe6445b73f5e68d972c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_52.asset using Guid(28b1ca65b86fe6445b73f5e68d972c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '189efd8be066a6265f57d04da4e7fa8f') in 0.035883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_81.asset
-  artifactKey: Guid(42a2a10858095b44a802a7a304a39fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_81.asset using Guid(42a2a10858095b44a802a7a304a39fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f2777dde17bbd22a00d3aceb50b5587') in 0.034174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_87.asset
-  artifactKey: Guid(1b618c5d45d3b00418d45e0c3745ec6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_87.asset using Guid(1b618c5d45d3b00418d45e0c3745ec6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '82caf1c494cd262815f0b5b09a3fc2b5') in 0.035813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/ShowIfAttributeProcessor.cs
-  artifactKey: Guid(49b75efbae43a4c3abd9941511dd16f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Attributes/ShowIfAttributeProcessor.cs using Guid(49b75efbae43a4c3abd9941511dd16f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6aea504357f952f49ccbc54e9160c6e9') in 0.022170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Editor/Utils/ReflectionUtil.cs
-  artifactKey: Guid(fb81ea54915e94ee3b2089488dc6106d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Editor/Utils/ReflectionUtil.cs using Guid(fb81ea54915e94ee3b2089488dc6106d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9dfdef05afe6f50619e2767fa85378fe') in 0.019908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Torch Flame.mat
-  artifactKey: Guid(51c04926d5a84b246af84e8756757023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Torch Flame.mat using Guid(51c04926d5a84b246af84e8756757023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '73e25ccaf84b34a3c76f5947615fa2b8') in 0.049726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_82.asset
-  artifactKey: Guid(edd2564588bdeb14cb720c738cd3bd63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_82.asset using Guid(edd2564588bdeb14cb720c738cd3bd63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '45f34ee3d211062564275a3de4c455c4') in 0.038198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_132.asset
-  artifactKey: Guid(d6c9089d3b6cf5a4a9f52dd1ee4563d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_132.asset using Guid(d6c9089d3b6cf5a4a9f52dd1ee4563d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '12031ef97c1ba70e5801a49b2f94462f') in 0.040451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInPlayModeAttribute.cs
-  artifactKey: Guid(475bcff7d1f7d4f87921f9b22ac3e26d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInPlayModeAttribute.cs using Guid(475bcff7d1f7d4f87921f9b22ac3e26d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8be121ad539014e512d7a633fc3157a6') in 0.021287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_144.asset
-  artifactKey: Guid(d4e7c40b197cef140b3ca03dd3db20c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_144.asset using Guid(d4e7c40b197cef140b3ca03dd3db20c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cd33ca2f3310ba39932878667f3277ea') in 0.036306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_123.asset
-  artifactKey: Guid(f180bd92c91778e47be33b4838122117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_123.asset using Guid(f180bd92c91778e47be33b4838122117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2a1f9572048019e22154da8d4ef90bfc') in 0.035994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Third Party/Lucid Editor/License.txt
-  artifactKey: Guid(00866a6e9303e234a98e8ea3dfb1d6e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Cainos/Third Party/Lucid Editor/License.txt using Guid(00866a6e9303e234a98e8ea3dfb1d6e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a32583ef02e3ae5c61339d8f4c90037a') in 0.032547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
+
+- Loaded All Assemblies, in  0.708 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
+  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1434ms
+	BeginReloadAssembly (496ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (350ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (22.9 KB). Loaded Objects now: 4603.
+Memory consumption went from 139.6 MB to 139.6 MB.
+Total: 3.538600 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.154700 ms MarkObjects: 3.037200 ms  DeleteObjects: 0.044600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
+
+- Loaded All Assemblies, in  0.331 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
+  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.156 seconds
+Domain Reload Profiling: 1485ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4607.
+Memory consumption went from 139.7 MB to 139.6 MB.
+Total: 3.883300 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.210200 ms MarkObjects: 3.280500 ms  DeleteObjects: 0.093600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
+
+- Loaded All Assemblies, in  0.343 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
+  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.127 seconds
+Domain Reload Profiling: 1467ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4611.
+Memory consumption went from 139.7 MB to 139.7 MB.
+Total: 3.775300 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.184300 ms MarkObjects: 3.223800 ms  DeleteObjects: 0.042100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
+
+- Loaded All Assemblies, in  0.346 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
+  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.163 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4615.
+Memory consumption went from 139.7 MB to 139.7 MB.
+Total: 3.811100 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.186800 ms MarkObjects: 3.133000 ms  DeleteObjects: 0.072100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <d45553285c2f49d48808b14475028f9f>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <d45553285c2f49d48808b14475028f9f>:0 
+
+- Loaded All Assemblies, in  0.342 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\adlih\Documents\tugas\grafika komputer\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\2D-platformer-with-unity-9070fc67c5d0c6620c1a1e943bed3b23e41ababb\Library\PackageCache\com.unity.collab-proxy@2.5.1\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <31ddbb77ad66410c97138ec8b16c1d8f>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at Codice.Utils.LocalizationTranslator`1+FromTxt[T].GetTranslationsFromFile (System.String file, System.Boolean bLogExceptions) [0x0001b] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Codice.Utils.LocalizationTranslator`1[T].BuildFromLocalizationFile (System.String fileName, System.String culture) [0x00087] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetTranslator (System.String fileName, System.String culture) [0x00011] in <3fce4657740048e9b51776688c0ca588>:0 
+  at PlasticGui.PlasticLocalization.GetString (PlasticGui.PlasticLocalization+Name name) [0x00001] in <3fce4657740048e9b51776688c0ca588>:0 
+  at Unity.Cloud.Collaborate.ToolbarButton..ctor () [0x00017] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:33 
+  at Unity.Cloud.Collaborate.ToolbarButton.InitializeIfNeeded () [0x00008] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:25 
+  at Unity.Cloud.Collaborate.ToolbarBootstrap..cctor () [0x00000] in .\Library\PackageCache\com.unity.collab-proxy@2.5.1\Editor\PlasticSCM\Toolbar\ToolbarButton.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.210 seconds
+Domain Reload Profiling: 1550ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 8.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (22.8 KB). Loaded Objects now: 4619.
+Memory consumption went from 139.7 MB to 139.7 MB.
+Total: 4.551800 ms (FindLiveObjects: 0.657500 ms CreateObjectMapping: 0.259700 ms MarkObjects: 3.589300 ms  DeleteObjects: 0.043400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
