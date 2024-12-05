@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Trap
+  - Death
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - background
-  - 
-  - 
+  - Ground
+  - Player
   - 
   - 
   - 
@@ -57,6 +58,9 @@ TagManager:
     locked: 0
   - name: background0
     uniqueID: 961480081
+    locked: 0
+  - name: Player
+    uniqueID: 354243915
     locked: 0
   - name: Default
     uniqueID: 0

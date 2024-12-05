@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &498441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4276373493370578772, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+  m_PrefabInstance: {fileID: 399913091148471632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &9317423
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,7 +139,7 @@ GameObject:
   - component: {fileID: 9317424}
   m_Layer: 0
   m_Name: TX Village Props - Spike Ball
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,7 +183,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300260, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -216,7 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32981182}
   - component: {fileID: 32981183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_48 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -346,7 +351,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 771995543
-  m_SortingLayer: -2
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1306090582, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -384,9 +389,9 @@ GameObject:
   m_Component:
   - component: {fileID: 95981461}
   - component: {fileID: 95981462}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_149
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -514,7 +519,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300140, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -552,7 +557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138252684}
   - component: {fileID: 138252683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_2
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -682,7 +687,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300154, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -720,7 +725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 183828488}
   - component: {fileID: 183828487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_112
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -865,7 +870,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300226, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -956,7 +961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218918443}
   - component: {fileID: 218918444}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_112
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1086,7 +1091,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300264, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1170,7 +1175,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1208,7 +1213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385698973}
   - component: {fileID: 385698974}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_1 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1292,9 +1297,9 @@ GameObject:
   m_Component:
   - component: {fileID: 397268678}
   - component: {fileID: 397268679}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_2
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1376,7 +1381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437159264}
   - component: {fileID: 437159265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_163 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1506,7 +1511,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300138, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1590,7 +1595,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300010, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1674,7 +1679,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300110, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1758,7 +1763,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300266, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1892,7 +1897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bad5de00ef63aa49852cac971a8fb54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1221100181}
+  target: {fileID: 498441}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1993,7 +1998,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300136, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2031,7 +2036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595063126}
   - component: {fileID: 595063127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_163 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2161,7 +2166,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300114, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2245,7 +2250,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300102, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2283,7 +2288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623483560}
   - component: {fileID: 623483561}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_2 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2367,7 +2372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 626768940}
   - component: {fileID: 626768941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_2 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2528,7 +2533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 723249919}
   - component: {fileID: 723249920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_28 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2612,7 +2617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729980201}
   - component: {fileID: 729980202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_149
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2829,7 +2834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766776407}
   - component: {fileID: 766776408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_112 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2959,7 +2964,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300102, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3043,7 +3048,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300152, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3127,7 +3132,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -287639233
-  m_SortingLayer: -6
+  m_SortingLayer: -7
   m_SortingOrder: 0
   m_Sprite: {fileID: -44259460, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3211,7 +3216,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300094, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3490,7 +3495,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300102, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3528,7 +3533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969423375}
   - component: {fileID: 969423376}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_1 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3691,7 +3696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084226769}
   - component: {fileID: 1084226768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3774,7 +3779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154067282}
   - component: {fileID: 1154067281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_1
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3904,7 +3909,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300252, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3988,7 +3993,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300042, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4098,7 +4103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 1286111613}
-  Player: {fileID: 1221100181}
+  Player: {fileID: 498441}
 --- !u!61 &1199283187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4171,9 +4176,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1209675785}
   - component: {fileID: 1209675784}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_151
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4245,180 +4250,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1084226769}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1221100181
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1221100184}
-  - component: {fileID: 1221100183}
-  - component: {fileID: 1221100182}
-  - component: {fileID: 1221100185}
-  - component: {fileID: 1221100186}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!50 &1221100182
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221100181}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!212 &1221100183
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221100181}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e87e4b78da2b736489b00961d89f5c93, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.96, y: 5.96}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1221100184
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221100181}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.44, z: 0}
-  m_LocalScale: {x: 0.25893074, y: 0.25893074, z: 0.79671}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1221100185
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221100181}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.96, y: 5.96}
-    newSize: {x: 5.96, y: 5.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 5.96, y: 5.96}
-  m_EdgeRadius: 0
---- !u!114 &1221100186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221100181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ad7b8a32c90f5c47bd5ec67ef892051, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 6.96
-  Jump: 400
-  isJumping: 0
 --- !u!1 &1239681772
 GameObject:
   m_ObjectHideFlags: 0
@@ -4475,7 +4306,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300082, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4514,7 +4345,7 @@ GameObject:
   - component: {fileID: 1286111614}
   m_Layer: 0
   m_Name: RespawnPoint
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4544,7 +4375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1326879953}
   - component: {fileID: 1326879954}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_48
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4628,7 +4459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370724581}
   - component: {fileID: 1370724582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_149 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4773,7 +4604,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300120, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4842,7 +4673,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300114, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4926,7 +4757,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1584143511
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1096680104, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5025,7 +4856,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300102, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5048,7 +4879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446775917}
   - component: {fileID: 1446775916}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5133,9 +4964,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1448018297}
   - component: {fileID: 1448018298}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_149 (1)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5263,7 +5094,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300066, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5301,9 +5132,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1453860780}
   - component: {fileID: 1453860781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_28
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5490,7 +5321,7 @@ SpriteRenderer:
   m_Size: {x: 5.96, y: 5.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1585606941
@@ -5633,7 +5464,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300252, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5673,7 +5504,7 @@ GameObject:
   - component: {fileID: 1617462594}
   m_Layer: 0
   m_Name: TX Village Props - Road Lamp Pillar
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5717,7 +5548,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300016, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5801,7 +5632,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300120, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5900,7 +5731,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300008, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5923,7 +5754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630603690}
   - component: {fileID: 1630603691}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_163 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6233,7 +6064,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300228, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6274,7 +6105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 1286111613}
-  Player: {fileID: 1221100181}
+  Player: {fileID: 498441}
 --- !u!1 &1711042061
 GameObject:
   m_ObjectHideFlags: 0
@@ -6285,7 +6116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711042063}
   - component: {fileID: 1711042062}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6416,7 +6247,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300268, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6500,7 +6331,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300262, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6538,7 +6369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1742379502}
   - component: {fileID: 1742379503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_162 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6622,7 +6453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1759673708}
   - component: {fileID: 1759673709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_28 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6752,7 +6583,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6836,7 +6667,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300086, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6874,9 +6705,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1839560462}
   - component: {fileID: 1839560463}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_163
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6962,7 +6793,7 @@ GameObject:
   - component: {fileID: 1856196346}
   m_Layer: 0
   m_Name: DeathGround
-  m_TagString: Ground
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7061,7 +6892,7 @@ SpriteRenderer:
   m_Size: {x: 5.96, y: 5.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1856196345
@@ -7092,7 +6923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 1286111613}
-  Player: {fileID: 1221100181}
+  Player: {fileID: 498441}
 --- !u!1 &1862050026
 GameObject:
   m_ObjectHideFlags: 0
@@ -7103,7 +6934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1862050027}
   - component: {fileID: 1862050028}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_48
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7187,7 +7018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1883735410}
   - component: {fileID: 1883735411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_7
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7369,7 +7200,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 961480081
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300158, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7407,7 +7238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992803383}
   - component: {fileID: 1992803384}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_1
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7537,7 +7368,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1927969669
-  m_SortingLayer: -3
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_Sprite: {fileID: 899480125, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7575,7 +7406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007889144}
   - component: {fileID: 2007889145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_162
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7721,7 +7552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2100115100}
   - component: {fileID: 2100115101}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7806,9 +7637,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2123625246}
   - component: {fileID: 2123625247}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TX Tileset Ground_162
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7936,7 +7767,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -721057833
-  m_SortingLayer: -5
+  m_SortingLayer: -6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1042382002, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7964,6 +7795,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &399913091148471632
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.904
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505949483421040258, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4276373493370578772, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a75106694aa96b4abed04cce5f7b5a1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7971,7 +7859,7 @@ SceneRoots:
   - {fileID: 1197547904}
   - {fileID: 1946974687}
   - {fileID: 519420032}
-  - {fileID: 1221100184}
+  - {fileID: 399913091148471632}
   - {fileID: 1856196345}
   - {fileID: 1585606941}
   - {fileID: 1286111614}
