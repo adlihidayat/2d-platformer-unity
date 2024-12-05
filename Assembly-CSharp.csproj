@@ -66,6 +66,7 @@
     <Compile Include="Assets\FinishLine.cs" />
     <Compile Include="Assets\Parallaxing.cs" />
     <Compile Include="Assets\DeathScript.cs" />
+    <Compile Include="Assets\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
